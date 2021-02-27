@@ -7,6 +7,7 @@ body {
     font: 16px 'Heebo', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 .stickers {
     color: #FFFFFF;
@@ -133,14 +134,13 @@ h1 {
     margin-left: 148px;
     margin-top: 10px;
     padding-bottom: 0;
+    margin-bottom: 83px;
 }
 .featured-container {
     margin-top: 25px;
     display: flex;
     padding-bottom: 25px;
     border-bottom: 1px solid #E0E0E0;
-    margin-right: 148px;
-    margin-left: 148px;
 }
 .work {
     flex-direction: column;
@@ -156,7 +156,7 @@ h1 {
     margin-bottom: 20px;
 }
 .footer {
-    margin-top: 83px;
+    height: 180px;
     padding-top: 51px;
     display: flex;
     justify-content: center;
@@ -171,4 +171,10 @@ h1 {
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 54px;
+}
+.blog-featured {
+    margin-left: 235px;
+    margin-right: 235px;
+    margin-bottom: 55px;
+    
 }
