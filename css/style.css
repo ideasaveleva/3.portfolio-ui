@@ -49,6 +49,7 @@ h1 {
 }
 .main {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     padding-top: 140px;
     padding-bottom: 70px;
@@ -65,7 +66,6 @@ h1 {
     border-radius: 2px;
     cursor: pointer;
     padding: 12px 20px 12px 20px;
-    margin-top: 47px;
     border: none;
 }
 .btn-link {
@@ -131,8 +131,12 @@ h1 {
     font-size: 30px;
     height: 44px;
     margin-top: 0;
-    margin-bottom: 20px;
     font-weight: 900;
+}
+.work-stick {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 22px;
 }
 .stickers {
     color: #FFFFFF;
@@ -142,16 +146,12 @@ h1 {
     border-radius: 16px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 25px;
 }
 .stick-description {
     color: #8695A4;
     margin-left: 26px;
     font-size: 20px;
     line-height: 29px;
-}
-.work-text {
-    margin-top: 22px;
 }
 .footer {
     padding-top: 50px;
@@ -211,8 +211,5 @@ h1 {
 .streak {
     margin-left: 26px;
 }
-
-
-
 
 
