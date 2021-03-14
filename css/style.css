@@ -68,8 +68,3 @@ a {
 .footer-developer {
     font-size: 14px;
 }
-@media (max-width: 991px) {
-    .col {
-        padding: 0 5px;
-    }
-}
