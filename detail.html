@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,58 +8,86 @@
     <title>Portfolio UI</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="header-menu">
-                <ul class="header-item">
-                    <li class="header-list"><a href="work.html" class="header-link">Works</a></li>
-                    <li class="header-list"><a href="blog.html" class="header-link">Blog</a></li>
-                    <li class="header-list"><a href="index.html" class="header-link">Contacts</a></li>
-                </ul>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <ul class="header-item d-flex">
+                        <li class="header-list">
+                            <a class="header-link" href="index.html">About me</a>
+                        </li>
+                        <li class="header-list">
+                            <a class="header-link" href="work.html">Works</a>
+                        </li>
+                        <li class="header-list">
+                            <a class="header-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="blog-featured">
-            <h1 class="detail-title" >Designing Dashboards with <br> usability in mind</h1>
-            <span class="stickers color">2020</span>
-            <span class="stick-description">Designing Dashboards with usability in mind</span>
-            <p class="deiail-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor do amet sint. Velit officia consequat duis enim
-                velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <img class="detail-image" src="img/detail1.jpg" alt="Statistics">
-            <h2 class="head-title">Heading 1</h2>
-            <h3 class="heading-title">Heading 2</h3>
-            <p class="deiail-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor do amet sint. Velit officia consequat duis enim
-                velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <img class="detail-image" src="img/detail2.jpg" alt="Car">
-            <img class="detail-image" src="img/detail3.jpg" alt="Date selection">
-        </div>
-        <div class="footer">
-            <div class="socials">
-                <a class="social-icon" href="https://facebook.com" target="_blank">
-                    <img src="./img/fb.svg" alt="Facebook icon">
-                </a>
-                <a class="social-icon" href="https://instagram.com" target="_blank">
-                    <img src="./img/insta.svg" alt="Instagram icon">
-                </a>
-                <a class="social-icon" href="https://twitter.com" target="_blank">
-                    <img src="./img/twit.svg" alt="Twitter icon">
-                </a>
-                <a class="social-icon" href="https://twitter.com" target="_blank">
-                    <img src="./img/Linkedin.svg" alt="Linkedin icon">
-                </a>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="detail-title">Designing Dashboards with usability in mind</h1>
+                    <div class="detail-name">
+                        <span class="number-bg" style="background: #FF7C7C">2020</span>
+                        <span class="stick-description">Designing Dashboards with usability in mind</span>
+                    </div>
+                </div>
             </div>
-            <!-- /.social -->
-            <span class="footer-make">Copyright ©2020 All rights reserved </span>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="deiail-text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-8">
+                    <img class="detail-image" src="img/detail1.jpg" alt="Statistics">
+                    <h2 class="head-title">Heading 1</h2>
+                    <h3 class="heading-title">Heading 2</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="deiail-text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-8">
+                    <img class="detail-image" src="img/detail2.jpg" alt="Car">
+                    <img class="detail-image" src="img/detail3.jpg" alt="Date selection">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row d-flex justify-content-around pt-5 pb-5">
+                    <div class="col-auto">
+                        <ul class="footer-item pb-3 d-flex justify-content-between">
+                            <li class="footer-link"><img src="img/fb.svg" alt="icon facebook"></li>
+                            <li class="footer-link"><img src="img/insta.svg" alt="icon instagram"></li>
+                            <li class="footer-link"><img src="img/twit.svg" alt="icon twitter"></li>
+                            <li class="footer-link"><img src="img/Linkedin.svg" alt="icon linkedin"></li>
+                        </ul>
+                        <span class="footer-developer">Copyright ©2020 All rights reserved </span>
+                    </div>
+                </div>
+            </div>
+            <!-- /.footer -->
         </div>
-        <!-- /.footer -->
     </div>
 </body>
+
 </html>
