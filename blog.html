@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,34 @@
     <title>Portfolio UI</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="header-menu">
-                <ul class="header-item">
-                    <li class="header-list"><a href="work.html" class="header-link">Works</a></li>
-                    <li class="header-list"><a href="blog.html" class="header-link">Blog</a></li>
-                    <li class="header-list"><a href="index.html" class="header-link">Contacts</a></li>
-                </ul>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <ul class="header-item d-flex">
+                        <li class="header-list">
+                            <a class="header-link" href="index.html">About me</a>
+                        </li>
+                        <li class="header-list">
+                            <a class="header-link" href="work.html">Works</a>
+                        </li>
+                        <li class="header-list">
+                            <a class="header-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="blog-featured">
-            <h1>Blog</h1>
-            <div class="featured-name">
-                <div class="work">
-                    <h2 class="work-title" >UI Interactions of the week</h2>
+        <div class="container">
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-7 top-stick">
+                    <h1 class="blog">Blog</h1>
+                    <h2 class="work-title">UI Interactions of the week</h2>
                     <span class="blog-stick">12 Feb 2019</span>
                     <span class="post-icon">|</span>
                     <span class="stick-description">Express, Handlebars</span>
@@ -35,9 +46,9 @@
                     </p>
                 </div>
             </div>
-            <div class="featured-name">
-                <div class="work">
-                    <h2 class="work-title" >UI Interactions of the week</h2>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">UI Interactions of the week</h2>
                     <span class="blog-stick">12 Feb 2019</span>
                     <span class="post-icon">|</span>
                     <span class="stick-description">Express, Handlebars</span>
@@ -48,9 +59,9 @@
                     </p>
                 </div>
             </div>
-            <div class="featured-name">
-                <div class="work">
-                    <h2 class="work-title" >UI Interactions of the week</h2>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">UI Interactions of the week</h2>
                     <span class="blog-stick">12 Feb 2019</span>
                     <span class="post-icon">|</span>
                     <span class="stick-description">Express, Handlebars</span>
@@ -61,9 +72,9 @@
                     </p>
                 </div>
             </div>
-            <div class="featured-name">
-                <div class="work">
-                    <h2 class="work-title" >UI Interactions of the week</h2>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">UI Interactions of the week</h2>
                     <span class="blog-stick">12 Feb 2019</span>
                     <span class="post-icon">|</span>
                     <span class="stick-description">Express, Handlebars</span>
@@ -76,24 +87,20 @@
             </div>
         </div>
         <div class="footer">
-            <div class="socials">
-                <a class="social-icon" href="https://facebook.com" target="_blank">
-                    <img src="./img/fb.svg" alt="Facebook icon">
-                </a>
-                <a class="social-icon" href="https://instagram.com" target="_blank">
-                    <img src="./img/insta.svg" alt="Instagram icon">
-                </a>
-                <a class="social-icon" href="https://twitter.com" target="_blank">
-                    <img src="./img/twit.svg" alt="Twitter icon">
-                </a>
-                <a class="social-icon" href="https://twitter.com" target="_blank">
-                    <img src="./img/Linkedin.svg" alt="Linkedin icon">
-                </a>
+            <div class="row d-flex justify-content-around pt-5 pb-5">
+                <div class="col-auto">
+                    <ul class="footer-item pb-3 d-flex justify-content-between">
+                        <li class="footer-link"><img src="img/fb.svg" alt="icon facebook"></li>
+                        <li class="footer-link"><img src="img/insta.svg" alt="icon instagram"></li>
+                        <li class="footer-link"><img src="img/twit.svg" alt="icon twitter"></li>
+                        <li class="footer-link"><img src="img/Linkedin.svg" alt="icon linkedin"></li>
+                    </ul>
+                    <span class="footer-developer">Copyright ©2020 All rights reserved </span>
+                </div>
             </div>
-            <!-- /.social -->
-            <span class="footer-make">Copyright ©2020 All rights reserved </span>
         </div>
         <!-- /.footer -->
     </div>
 </body>
+
 </html>

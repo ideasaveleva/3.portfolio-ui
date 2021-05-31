@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="container">
@@ -17,13 +19,13 @@
                 <div class="col-md-12 d-flex justify-content-end">
                     <ul class="header-item d-flex">
                         <li class="header-list">
-                            <a class="header-link" href="#">Works</a>
+                            <a class="header-link" href="index.html">About me</a>
                         </li>
                         <li class="header-list">
-                            <a class="header-link" href="#">Blog</a>
+                            <a class="header-link" href="work.html">Works</a>
                         </li>
                         <li class="header-list">
-                            <a class="header-link" href="#">Contact</a>
+                            <a class="header-link" href="blog.html">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -57,23 +59,27 @@
                     </div>
                     <!-- /.col-2 -->
                     <div class="col-auto col-md-2 d-flex justify-content-md-end">
-                        <a class="posts-link" href="#">View all</a>
+                        <a class="posts-link" href="detail.html">View all</a>
                     </div>
                     <!-- /.col-2 -->
                 </div>
                 <div class="row d-flex justify-content-md-between pb-4">
                     <div class="col-md-5 posts-description">
-                        <h2>Making a design system from scratch</h2>
-                        <span>12 Feb 2020</span>|<span>Design, Pattern</span>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                        <h2 class="posts-description-title">Making a design system from scratch</h2>
+                        <span class="blog-stick">12 Feb 2020</span>
+                        <span class="post-icon">|</span>
+                        <span class="stick-description">Design, Pattern</span>
+                        <p class="posts-description-text">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </div>
                     <div class="col-md-5 posts-description">
-                        <h2>Creating pixel perfect icons in Figma</h2>
-                        <span>12 Feb 2020</span>|<span>Figma, Icon Design</span>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                        <h2 class="posts-description-title">Creating pixel perfect icons in Figma</h2>
+                        <span class="blog-stick">12 Feb 2020</span>
+                        <span class="post-icon">|</span>
+                        <span class="stick-description">Figma, Icon Design</span>
+                        <p class="posts-description-text">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             Exercitation veniam consequat sunt nostrud amet.
                         </p>
@@ -82,47 +88,51 @@
             </div>
         </div>
         <div class="container works pb-2 pt-2">
-            <div class="row pt-3 pb-3">
-                <div class="col-12">
-                    <span>Featured works</span>
+            <div class="row pt-3 pb-3 justify-content-center">
+                <div class="col-10">
+                    <span class="featured">Featured works</span>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pt-4 pb-4 justify-content-center">
                 <div class="col-md-3">
                     <img class="my-foto" src="img/work1.jpg" alt="foto work1">
                 </div>
-                <div class="col-md-7">
-                    <h2>Designing Dashboards</h2>
-                    <span>2020</span><span>Dashboard</span>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">Designing Dashboards</h2>
+                    <span class="number-bg">2020</span>
+                    <span class="stick-description">Dashboard</span>
+                    <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                         Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                         sunt nostrud amet.
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pt-4 pb-4 justify-content-center">
                 <div class="col-md-3">
-                    <img class="my-foto" src="img/work1.jpg" alt="foto work1">
+                    <img class="my-foto" src="img/work2.jpg" alt="foto work2">
                 </div>
-                <div class="col-md-7">
-                    <h2>Designing Dashboards</h2>
-                    <span>2020</span><span>Dashboard</span>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">Vibrant Portraits of 2020</h2>
+                    <span class="number-bg">2018</span>
+                    <span class="stick-description">Illustration</span>
+                    <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                         Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                         sunt nostrud amet.
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pt-4 pb-4 justify-content-center">
                 <div class="col-md-3">
-                    <img class="my-foto" src="img/work1.jpg" alt="foto work1">
+                    <img class="my-foto" src="img/work3.jpg" alt="foto work3">
                 </div>
-                <div class="col-md-7">
-                    <h2>Designing Dashboards</h2>
-                    <span>2020</span><span>Dashboard</span>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
-                        sunt nostrud amet.
+                <div class="col-md-7 top-stick">
+                    <h2 class="work-title">36 Days of Malayalam type</h2>
+                    <span class="number-bg">2018</span>
+                    <span class="stick-description">Typography</span>
+                    <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia consequat
+                        duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
                 </div>
             </div>
@@ -131,10 +141,10 @@
             <div class="row d-flex justify-content-around pt-5 pb-5">
                 <div class="col-auto">
                     <ul class="footer-item pb-3 d-flex justify-content-between">
-                        <li class="footer-link" ><img src="img/fb.svg" alt="icon social"></li>
-                        <li class="footer-link" ><img src="img/fb.svg" alt="icon social"></li>
-                        <li class="footer-link" ><img src="img/fb.svg" alt="icon social"></li>
-                        <li class="footer-link" ><img src="img/fb.svg" alt="icon social"></li>
+                        <li class="footer-link"><img src="img/fb.svg" alt="icon facebook"></li>
+                        <li class="footer-link"><img src="img/insta.svg" alt="icon instagram"></li>
+                        <li class="footer-link"><img src="img/twit.svg" alt="icon twitter"></li>
+                        <li class="footer-link"><img src="img/Linkedin.svg" alt="icon linkedin"></li>
                     </ul>
                     <span class="footer-developer">Copyright ©2020 All rights reserved </span>
                 </div>
@@ -142,4 +152,5 @@
         </div>
     </div>
 </body>
+
 </html>

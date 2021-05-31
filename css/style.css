@@ -60,6 +60,13 @@ a {
 }
 .posts-description {
     background-color: #fff;
+    padding: 20px;
+}
+.posts-description-title {
+    padding-bottom: 20px;
+}
+.posts-description-text {
+    padding-top: 20px;
 }
 .footer-item {
     list-style: none;
@@ -68,5 +75,66 @@ a {
 .footer-developer {
     font-size: 14px;
 }
-
-
+.blog {
+    margin-bottom: 55px;
+    font-size: 44px;
+    font-weight: 900;
+}
+.work-title {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.work-text {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.blog-stick {
+    font-size: 20px;
+}
+.stick-description {
+    color: #8695A4;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.post-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.top-stick {
+    border-bottom: 1px solid #E0E0E0;
+}
+.featured {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.number-bg {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    background: #142850;
+    border-radius: 16px;
+    padding: 3px 10px;
+    margin-right: 25px;
+}
+img {
+    width: 100%;
+}
+.detail-title {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+}
+.deiail-text {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.head-title {
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
