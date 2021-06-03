@@ -49,6 +49,7 @@ a {
 }
 .my-foto {
     width: 100%;
+    border-radius: 50%;
 }
 .posts-link {
     font-size: 16px;
