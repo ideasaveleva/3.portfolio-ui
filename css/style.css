@@ -49,6 +49,8 @@ a {
 }
 .my-foto {
     width: 100%;
+}
+.fotoFrame {
     border-radius: 50%;
 }
 .posts-link {
